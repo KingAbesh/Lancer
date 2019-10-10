@@ -1,0 +1,229 @@
+.notification-container{
+    font-family: 'Ubuntu', sans-serif;
+}
+.notification-bar{
+    border: 1.2px solid #C4C4C4;
+    box-sizing: border-box;
+    padding: 10px; 
+    margin-top: 20px;
+}
+.notification-icon{
+    margin: 20px 5px 20px 20px;
+    font-size: 1.9rem !important;
+}
+
+.n-icon-indigo{
+    color:#00F9FF;
+}
+.n-icon-orange{
+    color:#F38E45;
+}
+.notification-title{
+    font-size: 24px; 
+    font-weight:800;
+}
+.notification-add-btn{
+    position: fixed; 
+    bottom: 0; 
+    border-radius: 50%; 
+    padding: 10px 20px; 
+    font-size: 25px;
+}
+
+.notification-subtitle{
+    font-size: 18px; 
+    font-weight:600;
+}
+
+.notification-search-bar{
+    width: 100% !important;
+    max-width: 500px;
+    padding-left: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.notification-search-bar:focus{
+   box-shadow: none;
+   border-color: #e5e5e5;
+}
+
+.notification-nav{
+    box-shadow: 1px 2px 2px #d0cdcd;
+}
+
+.border-right-grey{
+    border-right:2px solid #e5e5e5;
+}
+
+.notification-nav .img{
+    max-width: 20px;
+}
+
+.notification-nav .nav-item{
+    padding:1rem 1.5rem;
+}
+
+.notification-nav .fa-search{
+    position: absolute;
+    left: 3.5%;
+}
+
+.nav-icons-col{
+    display: flex;
+   justify-content: flex-end;
+}
+
+.notification-user-profile{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    align-items: center;
+    position: relative;
+    }
+
+.notif-abbrv-name{
+    position: absolute;
+    left: 20%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:#000;
+}
+
+.navbar-toggler:focus{
+    outline:0;
+}
+
+.notification-sidebar{
+        background: #091429;
+    }
+
+.notification-sidebar .img{
+    max-width: 150px;
+}
+
+.notification-sidebar .fa{
+    padding-right: 1.1rem;
+}
+
+.notif-logo-area{
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.notification-sidebar-nav{
+    margin-top: 6rem;
+}
+
+.notification-sidebar-nav .nav-list-item{
+    list-style: none;
+    color:#fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom:4.5rem;
+}
+
+.fa{
+    font-size: 1.5rem;
+}
+
+
+.notification-sidebar-nav .notif-a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+.notif-trans-btn{
+    background: transparent;
+    border: none;
+    color: #fff;
+    display: none;
+}
+
+.notif-trans-btn:focus{
+    outline: 0;
+}
+
+
+.fa-bell{
+    color:#009FFF !important;
+   }
+
+
+
+@media (max-width: 1050px){
+
+    .notif-logo-area{
+    margin-top: 5rem;
+    }
+
+    .nav-icons-col .navbar-nav{
+      flex-direction: row;
+      width: 100%;
+      text-align: center;
+   }
+    .notification-search-bar{
+        max-width: 100%;
+        margin-top:1rem;
+    }
+    .nav-icons-col{
+        justify-content: flex-start;
+    }
+
+    .nav-icons-col .nav-item{
+        flex:1;
+    }
+
+    .notification-nav .fa-search {
+        position: absolute;
+        left: 5%;
+        top:35px;
+    }
+
+    .notification-sidebar-nav .nav-list-item {
+        margin-bottom: .6rem;
+    }
+
+    .notification-sidebar-nav{
+     margin-top: 2rem;
+     display: none;
+   }
+
+   .notif-logo-area{
+    text-align: left;
+    padding-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   }
+
+
+}
+
+@media(max-width: 1200px){
+    .notification-sidebar{
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1;
+   }
+
+   .notification-body{
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100%;
+   }
+
+   .notif-logo-area{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   }
+
+   .notif-trans-btn{
+       display: block;
+   }
+
+}

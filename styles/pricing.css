@@ -1,0 +1,171 @@
+.navbar-brand{
+    font-family: Pacifico;
+    color: white
+}
+.navbar-brand h3 span{
+    color: #0ABAB5
+}
+.navbar-brand :hover{
+    color: rgb(255, 255, 255);
+}
+
+.pricing-header{
+    background: #091429
+}
+
+.pricing-header .nav-link{
+   font-size: 15px;
+   color: aliceblue;
+}
+
+.navbar-collapse{
+    justify-content: flex-end
+}
+
+.pricing{
+    width: 100%;
+    padding: 70px;
+}
+
+
+.pricing .title-header{
+    text-align: center
+}
+
+.pricing .title-header h1{ 
+    font-size: 65px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.pricecol{
+    height: 450px;
+    border: 1px solid rgb(197, 132, 132);
+    position: relative;
+}
+.pricetext{
+    text-align: center;
+    font-size: 30px;
+
+}
+.pricenumber{
+    text-align: center;
+    font-size: 48px;
+    
+}
+
+.price-button{
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+    left:0;
+}
+
+.pricelist{
+    list-style: none;
+}
+.pricelist li{
+    margin: 5px auto
+}
+.pricelist li span{
+    margin: auto 5px
+}
+
+.price-button a{
+    background: #0ABAB5;
+    color: #fff;
+    border: none
+}
+
+
+.price-button a:hover{
+    background: rgb(9, 155, 150);
+}
+
+.pricenumber::before{
+    font-size: 17px;
+    content: '\0024';
+    position: relative;
+    left: -2px;
+    top: -25px
+}
+
+.pricenumber{
+    position: relative;
+}
+
+.pricenumber p{
+    font-size: 17px;
+    display: inline;
+}
+article {
+    background-color:#091429;
+    padding: 25px;
+}
+
+footer {
+    background-color: white;
+    padding: 25px;
+}
+
+.enter-div {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+#enter-line {
+    line-height: 65px;
+}
+
+#lancer {
+
+font-style: normal;
+font-weight: normal;
+font-family: 'Pacifico', cursive;
+font-size: 20px;
+}
+
+#btn-sub {
+    background: #0ABAB5;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+#email-input {
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 2px;
+color: black;
+}
+
+.btn {
+background: #091429;
+border: 1px solid #0ABAB5 ;
+color: #0ABAB5;
+box-sizing: border-box;
+border-radius: 6px;
+}
+
+.link {
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pricing .title-header h1{
+        padding: 0;
+        font-size: 35px
+    }
+    .pricing{
+        padding: 20px;
+    }
+
+    
+
+    .pricecol{
+        margin: 20px auto
+    }
+  }
